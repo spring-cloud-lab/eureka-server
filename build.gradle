@@ -22,6 +22,10 @@ repositories {
 	mavenCentral()
 }
 
+jar {
+	baseName = 'eureka-server'
+	version = ''
+}
 
 ext {
 	springCloudVersion = 'Dalston.SR3'
